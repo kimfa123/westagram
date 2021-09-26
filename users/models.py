@@ -7,5 +7,5 @@ class User(models.Model):
     password = models.CharField(max_length=100)
     contact  = models.CharField(max_length=100, blank=True, default='')
     
-    class = Meta:
+    class Meta:
         db_table = 'users'
